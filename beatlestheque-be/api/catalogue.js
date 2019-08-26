@@ -46,7 +46,7 @@ router.get('/album', async (req, res, next) => {
 
     try {
         const albums = await albumModel.find({});
-        //console.log(smoothies);
+        console.log(albums);
         res.send(albums);
         
     } catch (error) {
