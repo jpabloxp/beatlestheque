@@ -21,7 +21,7 @@ const albumSchema = mongoose.Schema(
                     required: false
                 },
                 length : {
-                    type: Double,
+                    type: Number,
                     required: false
                 }
             }
