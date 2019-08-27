@@ -23,6 +23,30 @@ const albumSchema = mongoose.Schema(
                 length : {
                     type: Number,
                     required: false
+                },
+                lyrics : {
+                    type: String,
+                    required: false
+                }
+            }
+        ],
+        musicians : [
+            {
+                lennon : {
+                    type: String,
+                    required: false
+                },
+                macca : {
+                    type: String,
+                    required: false
+                },
+                harrison : {
+                    type: String,
+                    required: false
+                },
+                starr : {
+                    type: String,
+                    required: false
                 }
             }
         ]
